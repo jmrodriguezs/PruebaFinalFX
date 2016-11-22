@@ -16,10 +16,6 @@ import javafx.stage.Stage;
  */
 public class ControlFX {
 	
-	//not using yet
-	@FXML
-	private ImageView imageRaw;
-
 
 	/**
      * Opens an stage to send the profile
@@ -48,7 +44,7 @@ public class ControlFX {
      */
     
     @FXML
-    private void handleSend() {
+    private void sendStage() {
     	showSendProfile();
     }
 
@@ -56,7 +52,7 @@ public class ControlFX {
      * Closes the application when clicked on Exit in the secondary stage
      */
     @FXML
-    private void handleClose() {
+    private void closeStage() {
    	        System.exit(0);
     }
     }

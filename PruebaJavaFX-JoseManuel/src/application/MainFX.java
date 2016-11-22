@@ -64,8 +64,7 @@ public class MainFX extends Application {
 					getClass().getResource("application.css").toExternalForm());
 	
 			//			adding fonts
-			scene.getStylesheets().add("http://fonts.googleapis.com/css?family=Shadows+Into+Light");
-            Font.loadFont(getClass().getResourceAsStream("../resources/fonts/HipsterishFontNormal.ttf"), 20);
+            Font.loadFont(getClass().getResourceAsStream("vista/assets/fonts/HipsterishFontNormal.ttf"), 30);
             
 			primaryStage.setScene(scene);
 			
